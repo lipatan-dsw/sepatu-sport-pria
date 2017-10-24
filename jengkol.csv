@@ -1,5 +1,5 @@
-title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,product,price,sku,kondisi
-Jual Sepatu Sport / Sneakers Pria - AT 103 Murah,sepatu-sport-sneakers-pria-at-103,"
+title,permalink,body,published_at,filter,categories,tags,jenis,brand,description,image,image1,image2,image3,image4,image5,product,price,hargajual,profit,sku,kondisi
+Jual Sepatu Olahraga / Sport / Running Pria - DA 036 Murah,sepatu-olahraga-sport-running-pria-da-036,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -24,6 +24,7 @@ Jual Sepatu Sport / Sneakers Pria - AT 103 Murah,sepatu-sport-sneakers-pria-at-1
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -46,8 +47,18 @@ Jual Sepatu Sport / Sneakers Pria - AT 103 Murah,sepatu-sport-sneakers-pria-at-1
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - AT 103 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : AT 103<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 39 - 43<br/>Berat : 1.1 kg<br/>Sol : TPR<br/>Heels : <br>
+         <p>Sepatu Olahraga / Sport / Running Pria - DA 036 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : DA 036<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : SPON<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -61,8 +72,8 @@ Jual Sepatu Sport / Sneakers Pria - AT 103 Murah,sepatu-sport-sneakers-pria-at-1
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 39 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/102-at-103.jpg,Sepatu Sport / Sneakers Pria - AT 103,Rp 139.900,AT 103,Baru
-Jual Sepatu Sport / Sneakers Pria - DY 032 Murah,sepatu-sport-sneakers-pria-dy-032,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/293-da-036.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-036-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-036-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-036-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-036-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-036-e.jpg,Sepatu Olahraga / Sport / Running Pria - DA 036,Rp 132.400,Rp 154.900,Rp 22.500,DA 036,Baru
+Jual Sepatu Olahraga / Sport / Running Pria - AT 104 Murah,sepatu-olahraga-sport-running-pria-at-104,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -87,6 +98,7 @@ Jual Sepatu Sport / Sneakers Pria - DY 032 Murah,sepatu-sport-sneakers-pria-dy-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -109,8 +121,18 @@ Jual Sepatu Sport / Sneakers Pria - DY 032 Murah,sepatu-sport-sneakers-pria-dy-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - DY 032 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : DY 032<br/>Warna : ABU KOMBINASI<br/>Bahan : SYNTHETIC<br/>Ukuran : 39 - 43<br/>Berat : 1.1 kg<br/>Sol : TPR<br/>Heels : <br>
+         <p>Sepatu Olahraga / Sport / Running Pria - AT 104 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : AT 104<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 39 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -124,8 +146,8 @@ Jual Sepatu Sport / Sneakers Pria - DY 032 Murah,sepatu-sport-sneakers-pria-dy-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 39 - 43, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/103-dy-032.jpg,Sepatu Sport / Sneakers Pria - DY 032,Rp 138.400,DY 032,Baru
-Jual Sepatu Sport / Sneakers Pria - DA 030 Murah,sepatu-sport-sneakers-pria-da-030,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 39 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/294-at-104.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-104-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-104-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-104-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-104-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-104-e.jpg,Sepatu Olahraga / Sport / Running Pria - AT 104,Rp 148.900,Rp 174.900,Rp 26.000,AT 104,Baru
+Jual Sepatu Olahraga / Sport / Running Pria - TF 138 Murah,sepatu-olahraga-sport-running-pria-tf-138,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -150,6 +172,7 @@ Jual Sepatu Sport / Sneakers Pria - DA 030 Murah,sepatu-sport-sneakers-pria-da-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -172,8 +195,18 @@ Jual Sepatu Sport / Sneakers Pria - DA 030 Murah,sepatu-sport-sneakers-pria-da-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - DA 030 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : DA 030<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : SPONGE<br/>Heels : <br>
+         <p>Sepatu Olahraga / Sport / Running Pria - TF 138 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : TF 138<br/>Warna : PUTIH<br/>Bahan : SINTETIS<br/>Ukuran : 39 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -187,8 +220,8 @@ Jual Sepatu Sport / Sneakers Pria - DA 030 Murah,sepatu-sport-sneakers-pria-da-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/104-da-030.jpg,Sepatu Sport / Sneakers Pria - DA 030,Rp 130.900,DA 030,Baru
-Jual Sepatu Sport / Sneakers Pria - TF 140 Murah,sepatu-sport-sneakers-pria-tf-140,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 39 - 43, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/295-tf-138.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tf-138-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tf-138-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tf-138-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tf-138-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tf-138-e.jpg,Sepatu Olahraga / Sport / Running Pria - TF 138,Rp 138.400,Rp 161.900,Rp 23.500,TF 138,Baru
+Jual Sepatu Olahraga / Sport / Running Pria - DA 030 Murah,sepatu-olahraga-sport-running-pria-da-030,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -213,6 +246,7 @@ Jual Sepatu Sport / Sneakers Pria - TF 140 Murah,sepatu-sport-sneakers-pria-tf-1
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -235,8 +269,18 @@ Jual Sepatu Sport / Sneakers Pria - TF 140 Murah,sepatu-sport-sneakers-pria-tf-1
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - TF 140 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : TF 140<br/>Warna : ABU ABU<br/>Bahan : SYNTHETIC<br/>Ukuran : 39 - 43<br/>Berat : 1.1 kg<br/>Sol : TPR<br/>Heels : <br>
+         <p>Sepatu Olahraga / Sport / Running Pria - DA 030 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : DA 030<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : SPON<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -250,8 +294,8 @@ Jual Sepatu Sport / Sneakers Pria - TF 140 Murah,sepatu-sport-sneakers-pria-tf-1
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 39 - 43, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/105-tf-140.jpg,Sepatu Sport / Sneakers Pria - TF 140,Rp 138.400,TF 140,Baru
-Jual Sepatu Sport / Sneakers Pria - DA 036 Murah,sepatu-sport-sneakers-pria-da-036,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/296-da-030.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-030-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-030-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-030-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-030-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-030-e.jpg,Sepatu Olahraga / Sport / Running Pria - DA 030,Rp 130.900,Rp 153.900,Rp 23.000,DA 030,Baru
+Jual Sepatu Olahraga / Sport / Running Pria - TF 141 Murah,sepatu-olahraga-sport-running-pria-tf-141,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -276,6 +320,7 @@ Jual Sepatu Sport / Sneakers Pria - DA 036 Murah,sepatu-sport-sneakers-pria-da-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -298,8 +343,18 @@ Jual Sepatu Sport / Sneakers Pria - DA 036 Murah,sepatu-sport-sneakers-pria-da-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - DA 036 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : DA 036<br/>Warna : ABU ABU<br/>Bahan : SYNTHETIC<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : SPONGE<br/>Heels : <br>
+         <p>Sepatu Olahraga / Sport / Running Pria - TF 141 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : TF 141<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 39 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -313,8 +368,8 @@ Jual Sepatu Sport / Sneakers Pria - DA 036 Murah,sepatu-sport-sneakers-pria-da-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 38 - 43, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/106-da-036.jpg,Sepatu Sport / Sneakers Pria - DA 036,Rp 132.400,DA 036,Baru
-Jual Sepatu Sport / Sneakers Pria - TF 138 Murah,sepatu-sport-sneakers-pria-tf-138,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 39 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/297-tf-141.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tf-141-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tf-141-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tf-141-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tf-141-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/tf-141-e.jpg,Sepatu Olahraga / Sport / Running Pria - TF 141,Rp 147.400,Rp 172.900,Rp 25.500,TF 141,Baru
+Jual Sepatu Olahraga / Sport / Running Pria - DA 034 Murah,sepatu-olahraga-sport-running-pria-da-034,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -339,6 +394,7 @@ Jual Sepatu Sport / Sneakers Pria - TF 138 Murah,sepatu-sport-sneakers-pria-tf-1
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -361,8 +417,18 @@ Jual Sepatu Sport / Sneakers Pria - TF 138 Murah,sepatu-sport-sneakers-pria-tf-1
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - TF 138 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : TF 138<br/>Warna : PUTIH<br/>Bahan : SYNTHETIC<br/>Ukuran : 39 - 43<br/>Berat : 1.1 kg<br/>Sol : TPR<br/>Heels : <br>
+         <p>Sepatu Olahraga / Sport / Running Pria - DA 034 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : DA 034<br/>Warna : ABU HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : SPON<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -376,8 +442,8 @@ Jual Sepatu Sport / Sneakers Pria - TF 138 Murah,sepatu-sport-sneakers-pria-tf-1
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 39 - 43, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/107-tf-138.jpg,Sepatu Sport / Sneakers Pria - TF 138,Rp 138.400,TF 138,Baru
-Jual Sepatu Sport / Sneakers Pria - DA 034 Murah,sepatu-sport-sneakers-pria-da-034,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna ABU HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/298-da-034.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-034-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-034-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-034-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-034-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-034-e.jpg,Sepatu Olahraga / Sport / Running Pria - DA 034,Rp 130.900,Rp 153.900,Rp 23.000,DA 034,Baru
+Jual Sepatu Olahraga / Sport / Running Pria - AT 103 Murah,sepatu-olahraga-sport-running-pria-at-103,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -402,6 +468,7 @@ Jual Sepatu Sport / Sneakers Pria - DA 034 Murah,sepatu-sport-sneakers-pria-da-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -424,8 +491,18 @@ Jual Sepatu Sport / Sneakers Pria - DA 034 Murah,sepatu-sport-sneakers-pria-da-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - DA 034 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : DA 034<br/>Warna : ABU HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : SPONGE<br/>Heels : <br>
+         <p>Sepatu Olahraga / Sport / Running Pria - AT 103 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : AT 103<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 39 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -439,8 +516,8 @@ Jual Sepatu Sport / Sneakers Pria - DA 034 Murah,sepatu-sport-sneakers-pria-da-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 38 - 43, Warna ABU HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/108-da-034.jpg,Sepatu Sport / Sneakers Pria - DA 034,Rp 130.900,DA 034,Baru
-Jual Sepatu Sport / Sneakers Pria - DD 017 Murah,sepatu-sport-sneakers-pria-dd-017,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 39 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/299-at-103.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-103-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-103-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-103-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-103-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-103-e.jpg,Sepatu Olahraga / Sport / Running Pria - AT 103,Rp 139.900,Rp 163.900,Rp 24.000,AT 103,Baru
+Jual Sepatu Olahraga / Sport / Running Pria - DA 037 Murah,sepatu-olahraga-sport-running-pria-da-037,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -465,6 +542,7 @@ Jual Sepatu Sport / Sneakers Pria - DD 017 Murah,sepatu-sport-sneakers-pria-dd-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -487,8 +565,18 @@ Jual Sepatu Sport / Sneakers Pria - DD 017 Murah,sepatu-sport-sneakers-pria-dd-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - DD 017 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : DD 017<br/>Warna : PUTIH<br/>Bahan : SYNTHETIC<br/>Ukuran : 39 - 43<br/>Berat : 1.1 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Olahraga / Sport / Running Pria - DA 037 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : DA 037<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : SPON<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -502,8 +590,8 @@ Jual Sepatu Sport / Sneakers Pria - DD 017 Murah,sepatu-sport-sneakers-pria-dd-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 39 - 43, Warna PUTIH",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/109-dd-017.jpg,Sepatu Sport / Sneakers Pria - DD 017,Rp 147.400,DD 017,Baru
-Jual Sepatu Sport / Sneakers Pria - AT 074 Murah,sepatu-sport-sneakers-pria-at-074,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/300-da-037.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-037-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-037-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-037-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-037-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/da-037-e.jpg,Sepatu Olahraga / Sport / Running Pria - DA 037,Rp 135.400,Rp 158.900,Rp 23.500,DA 037,Baru
+Jual Sepatu Olahraga / Sport / Running Pria - DY 032 Murah,sepatu-olahraga-sport-running-pria-dy-032,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -528,6 +616,7 @@ Jual Sepatu Sport / Sneakers Pria - AT 074 Murah,sepatu-sport-sneakers-pria-at-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -550,8 +639,18 @@ Jual Sepatu Sport / Sneakers Pria - AT 074 Murah,sepatu-sport-sneakers-pria-at-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - AT 074 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : AT 074<br/>Warna : BIRU<br/>Bahan : SYNTHETIC<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Olahraga / Sport / Running Pria - DY 032 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : DY 032<br/>Warna : ABU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 39 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -565,8 +664,8 @@ Jual Sepatu Sport / Sneakers Pria - AT 074 Murah,sepatu-sport-sneakers-pria-at-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 38 - 43, Warna BIRU",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/110-at-074.jpg,Sepatu Sport / Sneakers Pria - AT 074,Rp 136.400,AT 074,Baru
-Jual Sepatu Sport / Sneakers Pria - DY 039 Murah,sepatu-sport-sneakers-pria-dy-039,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 39 - 43, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/301-dy-032.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-032-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-032-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-032-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-032-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-032-e.jpg,Sepatu Olahraga / Sport / Running Pria - DY 032,Rp 138.400,Rp 161.900,Rp 23.500,DY 032,Baru
+Jual Sepatu Olahraga / Sport / Running Pria - AT 108 Murah,sepatu-olahraga-sport-running-pria-at-108,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -591,6 +690,7 @@ Jual Sepatu Sport / Sneakers Pria - DY 039 Murah,sepatu-sport-sneakers-pria-dy-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -613,8 +713,18 @@ Jual Sepatu Sport / Sneakers Pria - DY 039 Murah,sepatu-sport-sneakers-pria-dy-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - DY 039 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : DY 039<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Olahraga / Sport / Running Pria - AT 108 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : AT 108<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 39 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -628,8 +738,8 @@ Jual Sepatu Sport / Sneakers Pria - DY 039 Murah,sepatu-sport-sneakers-pria-dy-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/111-dy-039.jpg,Sepatu Sport / Sneakers Pria - DY 039,Rp 129.400,DY 039,Baru
-Jual Sepatu Sport / Sneakers Pria - DY 002 Murah,sepatu-sport-sneakers-pria-dy-002,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 39 - 43, Warna ABU ABU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/302-at-108.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-108-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-108-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-108-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-108-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-108-e.jpg,Sepatu Olahraga / Sport / Running Pria - AT 108,Rp 138.400,Rp 161.900,Rp 23.500,AT 108,Baru
+Jual Sepatu Olahraga / Sport / Running Pria - AT 074 Murah,sepatu-olahraga-sport-running-pria-at-074,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -654,6 +764,7 @@ Jual Sepatu Sport / Sneakers Pria - DY 002 Murah,sepatu-sport-sneakers-pria-dy-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -676,8 +787,18 @@ Jual Sepatu Sport / Sneakers Pria - DY 002 Murah,sepatu-sport-sneakers-pria-dy-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - DY 002 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : DY 002<br/>Warna : MERAH<br/>Bahan : SYNTHETIC<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Olahraga / Sport / Running Pria - AT 074 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : AT 074<br/>Warna : BIRU<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -691,8 +812,8 @@ Jual Sepatu Sport / Sneakers Pria - DY 002 Murah,sepatu-sport-sneakers-pria-dy-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 38 - 43, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/112-dy-002.jpg,Sepatu Sport / Sneakers Pria - DY 002,Rp 127.900,DY 002,Baru
-Jual Sepatu Sport / Sneakers Pria - NS 071 Murah,sepatu-sport-sneakers-pria-ns-071,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna BIRU",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/303-at-074.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-074-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-074-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-074-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-074-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/at-074-e.jpg,Sepatu Olahraga / Sport / Running Pria - AT 074,Rp 136.400,Rp 159.900,Rp 23.500,AT 074,Baru
+Jual Sepatu Futsal / Olahraga Pria - NS 094 Murah,sepatu-futsal-olahraga-pria-ns-094,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -717,6 +838,7 @@ Jual Sepatu Sport / Sneakers Pria - NS 071 Murah,sepatu-sport-sneakers-pria-ns-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -739,8 +861,18 @@ Jual Sepatu Sport / Sneakers Pria - NS 071 Murah,sepatu-sport-sneakers-pria-ns-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - NS 071 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : NS 071<br/>Warna : HITAM MERAH<br/>Bahan : SYNTHETIC<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Futsal / Olahraga Pria - NS 094 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : NS 094<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -754,8 +886,8 @@ Jual Sepatu Sport / Sneakers Pria - NS 071 Murah,sepatu-sport-sneakers-pria-ns-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 38 - 43, Warna HITAM MERAH",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/113-ns-071.jpg,Sepatu Sport / Sneakers Pria - NS 071,Rp 138.400,NS 071,Baru
-Jual Sepatu Sport / Sneakers Pria - NS 093 Murah,sepatu-sport-sneakers-pria-ns-093,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/304-ns-094.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-094-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-094-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-094-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-094-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-094-e.jpg,Sepatu Futsal / Olahraga Pria - NS 094,Rp 128.900,Rp 150.900,Rp 22.000,NS 094,Baru
+Jual Sepatu Futsal / Olahraga Pria - NS 071 Murah,sepatu-futsal-olahraga-pria-ns-071,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -780,6 +912,7 @@ Jual Sepatu Sport / Sneakers Pria - NS 093 Murah,sepatu-sport-sneakers-pria-ns-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -802,8 +935,18 @@ Jual Sepatu Sport / Sneakers Pria - NS 093 Murah,sepatu-sport-sneakers-pria-ns-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - NS 093 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : NS 093<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : TPR<br/>Heels : <br>
+         <p>Sepatu Futsal / Olahraga Pria - NS 071 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : NS 071<br/>Warna : HITAM MERAH<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -817,8 +960,8 @@ Jual Sepatu Sport / Sneakers Pria - NS 093 Murah,sepatu-sport-sneakers-pria-ns-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/114-ns-093.jpg,Sepatu Sport / Sneakers Pria - NS 093,Rp 138.400,NS 093,Baru
-Jual Sepatu Sport / Sneakers Pria - NS 090 Murah,sepatu-sport-sneakers-pria-ns-090,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM MERAH",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/305-ns-071.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-071-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-071-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-071-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-071-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-071-e.jpg,Sepatu Futsal / Olahraga Pria - NS 071,Rp 138.400,Rp 161.900,Rp 23.500,NS 071,Baru
+Jual Sepatu Futsal / Olahraga Pria - DY 039 Murah,sepatu-futsal-olahraga-pria-dy-039,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -843,6 +986,7 @@ Jual Sepatu Sport / Sneakers Pria - NS 090 Murah,sepatu-sport-sneakers-pria-ns-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -865,8 +1009,18 @@ Jual Sepatu Sport / Sneakers Pria - NS 090 Murah,sepatu-sport-sneakers-pria-ns-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - NS 090 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : NS 090<br/>Warna : HITAM<br/>Bahan : SYNTHETIC<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : RUBBER<br/>Heels : <br>
+         <p>Sepatu Futsal / Olahraga Pria - DY 039 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : DY 039<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -880,8 +1034,8 @@ Jual Sepatu Sport / Sneakers Pria - NS 090 Murah,sepatu-sport-sneakers-pria-ns-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/115-ns-090.jpg,Sepatu Sport / Sneakers Pria - NS 090,Rp 127.900,NS 090,Baru
-Jual Sepatu Sport / Sneakers Pria - NS 091 Murah,sepatu-sport-sneakers-pria-ns-091,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/306-dy-039.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-039-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-039-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-039-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-039-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-039-e.jpg,Sepatu Futsal / Olahraga Pria - DY 039,Rp 129.400,Rp 151.900,Rp 22.500,DY 039,Baru
+Jual Sepatu Futsal / Olahraga Pria - DY 002 Murah,sepatu-futsal-olahraga-pria-dy-002,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -906,6 +1060,7 @@ Jual Sepatu Sport / Sneakers Pria - NS 091 Murah,sepatu-sport-sneakers-pria-ns-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -928,8 +1083,18 @@ Jual Sepatu Sport / Sneakers Pria - NS 091 Murah,sepatu-sport-sneakers-pria-ns-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - NS 091 dengan bahan SYNTHETIC ini dijamin awet.<br/>Kode : NS 091<br/>Warna : KUNING<br/>Bahan : SYNTHETIC<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : PVC<br/>Heels : <br>
+         <p>Sepatu Futsal / Olahraga Pria - DY 002 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : DY 002<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -943,8 +1108,8 @@ Jual Sepatu Sport / Sneakers Pria - NS 091 Murah,sepatu-sport-sneakers-pria-ns-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SYNTHETIC, Ukuran 38 - 43, Warna KUNING",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/116-ns-091.jpg,Sepatu Sport / Sneakers Pria - NS 091,Rp 127.900,NS 091,Baru
-Jual Sepatu Sport / Sneakers Pria - NS 092 Murah,sepatu-sport-sneakers-pria-ns-092,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna MERAH",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/307-dy-002.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-002-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-002-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-002-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-002-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/dy-002-e.jpg,Sepatu Futsal / Olahraga Pria - DY 002,Rp 127.900,Rp 149.900,Rp 22.000,DY 002,Baru
+Jual Sepatu Futsal / Olahraga Pria - NS 090 Murah,sepatu-futsal-olahraga-pria-ns-090,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -969,6 +1134,7 @@ Jual Sepatu Sport / Sneakers Pria - NS 092 Murah,sepatu-sport-sneakers-pria-ns-0
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -991,8 +1157,18 @@ Jual Sepatu Sport / Sneakers Pria - NS 092 Murah,sepatu-sport-sneakers-pria-ns-0
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Catenzo. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport / Sneakers Pria - NS 092 dengan bahan LEATHER ini dijamin awet.<br/>Kode : NS 092<br/>Warna : HITAM<br/>Bahan : LEATHER<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : TPR<br/>Heels : <br>
+         <p>Sepatu Futsal / Olahraga Pria - NS 090 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : NS 090<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : PVC<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1006,8 +1182,8 @@ Jual Sepatu Sport / Sneakers Pria - NS 092 Murah,sepatu-sport-sneakers-pria-ns-0
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-23,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan LEATHER, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017/foto-produk-satuan/117-ns-092.jpg,Sepatu Sport / Sneakers Pria - NS 092,Rp 124.900,NS 092,Baru
-Jual Sepatu Sport & Futsal Pria - RNW 013 Murah,sepatu-sport-futsal-pria-rnw-013,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/308-ns-090.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-090-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-090-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-090-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-090-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-090-e.jpg,Sepatu Futsal / Olahraga Pria - NS 090,Rp 127.900,Rp 149.900,Rp 22.000,NS 090,Baru
+Jual Sepatu Futsal / Olahraga Pria - NS 093 Murah,sepatu-futsal-olahraga-pria-ns-093,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1032,6 +1208,7 @@ Jual Sepatu Sport & Futsal Pria - RNW 013 Murah,sepatu-sport-futsal-pria-rnw-013
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1054,8 +1231,18 @@ Jual Sepatu Sport & Futsal Pria - RNW 013 Murah,sepatu-sport-futsal-pria-rnw-013
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport & Futsal Pria - RNW 013 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RNW 013<br/>Warna : HITAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : SOL TPR<br/>Heels : <br>
+         <p>Sepatu Futsal / Olahraga Pria - NS 093 adalah salah satu produk merek Catenzo. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : NS 093<br/>Warna : HITAM PUTIH<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1069,8 +1256,8 @@ Jual Sepatu Sport & Futsal Pria - RNW 013 Murah,sepatu-sport-futsal-pria-rnw-013
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/284-rnw-013.jpg,Sepatu Sport & Futsal Pria - RNW 013,Rp 126.900,RNW 013,Baru
-Jual Sepatu Sport & Futsal Pria - RNW 014 Murah,sepatu-sport-futsal-pria-rnw-014,"
+     </div><!--/category-tab-->",2017-10-16,html,sepatu-sport-pria,catenzo,sepatu-sport-pria,catenzo,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM PUTIH",https://images.lipatan.com/katalog-catenzo-2017-2/foto-produk-satuan/309-ns-093.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-093-a.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-093-b.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-093-c.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-093-d.jpg,https://images.lipatan.com/katalog-catenzo-2017-2/foto-berbagai-sudut/ns-093-e.jpg,Sepatu Futsal / Olahraga Pria - NS 093,Rp 138.400,Rp 161.900,Rp 23.500,NS 093,Baru
+Jual Sepatu Sport / Running / Olahraga Pria - RDF 022 Murah,sepatu-sport-running-olahraga-pria-rdf-022,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1095,6 +1282,7 @@ Jual Sepatu Sport & Futsal Pria - RNW 014 Murah,sepatu-sport-futsal-pria-rnw-014
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1117,8 +1305,18 @@ Jual Sepatu Sport & Futsal Pria - RNW 014 Murah,sepatu-sport-futsal-pria-rnw-014
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport & Futsal Pria - RNW 014 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RNW 014<br/>Warna : ABU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : SOL TPR<br/>Heels : <br>
+         <p>Sepatu Sport / Running / Olahraga Pria - RDF 022 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan KULIT.<br/>Kode : RDF 022<br/>Warna : HITAM CREAM<br/>Bahan : KULIT<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : KARET<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1132,8 +1330,8 @@ Jual Sepatu Sport & Futsal Pria - RNW 014 Murah,sepatu-sport-futsal-pria-rnw-014
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/285-rnw-014.jpg,Sepatu Sport & Futsal Pria - RNW 014,Rp 124.900,RNW 014,Baru
-Jual Sepatu Sport & Futsal Pria - RTF 126 Murah,sepatu-sport-futsal-pria-rtf-126,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan KULIT, Ukuran 38 - 43, Warna HITAM CREAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/229-rdf-022.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rdf-022-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rdf-022-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rdf-022-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rdf-022-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rdf-022-e.jpg,Sepatu Sport / Running / Olahraga Pria - RDF 022,Rp 174.900,Rp 204.900,Rp 30.000,RDF 022,Baru
+Jual Sepatu Sport / Running / Olahraga Pria - RDY 056 Murah,sepatu-sport-running-olahraga-pria-rdy-056,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1158,6 +1356,7 @@ Jual Sepatu Sport & Futsal Pria - RTF 126 Murah,sepatu-sport-futsal-pria-rtf-126
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1180,8 +1379,18 @@ Jual Sepatu Sport & Futsal Pria - RTF 126 Murah,sepatu-sport-futsal-pria-rtf-126
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport & Futsal Pria - RTF 126 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RTF 126<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : SOL TPR<br/>Heels : <br>
+         <p>Sepatu Sport / Running / Olahraga Pria - RDY 056 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RDY 056<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : RUBBER<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1195,8 +1404,8 @@ Jual Sepatu Sport & Futsal Pria - RTF 126 Murah,sepatu-sport-futsal-pria-rtf-126
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/286-rtf-126.jpg,Sepatu Sport & Futsal Pria - RTF 126,Rp 134.400,RTF 126,Baru
-Jual Sepatu Sport & Futsal Pria - RTF 127 Murah,sepatu-sport-futsal-pria-rtf-127,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/230-rdy-056.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rdy-056-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rdy-056-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rdy-056-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rdy-056-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rdy-056-e.jpg,Sepatu Sport / Running / Olahraga Pria - RDY 056,Rp 131.400,Rp 153.900,Rp 22.500,RDY 056,Baru
+Jual Sepatu Sport / Running / Olahraga Pria - RDA 041 Murah,sepatu-sport-running-olahraga-pria-rda-041,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1221,6 +1430,7 @@ Jual Sepatu Sport & Futsal Pria - RTF 127 Murah,sepatu-sport-futsal-pria-rtf-127
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1243,8 +1453,18 @@ Jual Sepatu Sport & Futsal Pria - RTF 127 Murah,sepatu-sport-futsal-pria-rtf-127
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport & Futsal Pria - RTF 127 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RTF 127<br/>Warna : ABU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 39 - 43<br/>Berat : 1.1 kg<br/>Sol : SOL TPR<br/>Heels : <br>
+         <p>Sepatu Sport / Running / Olahraga Pria - RDA 041 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RDA 041<br/>Warna : BIRU NAVY<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1258,8 +1478,8 @@ Jual Sepatu Sport & Futsal Pria - RTF 127 Murah,sepatu-sport-futsal-pria-rtf-127
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 39 - 43, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/287-rtf-127.jpg,Sepatu Sport & Futsal Pria - RTF 127,Rp 136.900,RTF 127,Baru
-Jual Sepatu Sport & Futsal Pria - RSD 015 Murah,sepatu-sport-futsal-pria-rsd-015,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna BIRU NAVY",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/231-rda-041.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rda-041-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rda-041-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rda-041-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rda-041-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rda-041-e.jpg,Sepatu Sport / Running / Olahraga Pria - RDA 041,Rp 131.400,Rp 153.900,Rp 22.500,RDA 041,Baru
+Jual Sepatu Sport / Running / Olahraga Pria - RDA 044 Murah,sepatu-sport-running-olahraga-pria-rda-044,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1284,6 +1504,7 @@ Jual Sepatu Sport & Futsal Pria - RSD 015 Murah,sepatu-sport-futsal-pria-rsd-015
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1306,8 +1527,18 @@ Jual Sepatu Sport & Futsal Pria - RSD 015 Murah,sepatu-sport-futsal-pria-rsd-015
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport & Futsal Pria - RSD 015 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RSD 015<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : SOL TPR<br/>Heels : <br>
+         <p>Sepatu Sport / Running / Olahraga Pria - RDA 044 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RDA 044<br/>Warna : PUTIH<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1321,8 +1552,8 @@ Jual Sepatu Sport & Futsal Pria - RSD 015 Murah,sepatu-sport-futsal-pria-rsd-015
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna ABU ABU",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/288-rsd-015.jpg,Sepatu Sport & Futsal Pria - RSD 015,Rp 131.400,RSD 015,Baru
-Jual Sepatu Sport & Futsal Pria - RJM 514 Murah,sepatu-sport-futsal-pria-rjm-514,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna PUTIH",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/232-rda-044.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rda-044-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rda-044-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rda-044-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rda-044-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rda-044-e.jpg,Sepatu Sport / Running / Olahraga Pria - RDA 044,Rp 131.400,Rp 153.900,Rp 22.500,RDA 044,Baru
+Jual Sepatu Sport / Running / Olahraga Pria - RTF 015 Murah,sepatu-sport-running-olahraga-pria-rtf-015,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1347,6 +1578,7 @@ Jual Sepatu Sport & Futsal Pria - RJM 514 Murah,sepatu-sport-futsal-pria-rjm-514
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1369,8 +1601,18 @@ Jual Sepatu Sport & Futsal Pria - RJM 514 Murah,sepatu-sport-futsal-pria-rjm-514
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport & Futsal Pria - RJM 514 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RJM 514<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : SOL TPR<br/>Heels : <br>
+         <p>Sepatu Sport / Running / Olahraga Pria - RTF 015 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RTF 015<br/>Warna : MERAH<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1384,8 +1626,8 @@ Jual Sepatu Sport & Futsal Pria - RJM 514 Murah,sepatu-sport-futsal-pria-rjm-514
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/289-rjm-514.jpg,Sepatu Sport & Futsal Pria - RJM 514,Rp 118.400,RJM 514,Baru
-Jual Sepatu Sport & Futsal Pria - RSD 022 Murah,sepatu-sport-futsal-pria-rsd-022,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna MERAH",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/233-rtf-015.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtf-015-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtf-015-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtf-015-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtf-015-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtf-015-e.jpg,Sepatu Sport / Running / Olahraga Pria - RTF 015,Rp 135.400,Rp 158.900,Rp 23.500,RTF 015,Baru
+Jual Sepatu Sport / Running / Olahraga Pria - RTF 127 Murah,sepatu-sport-running-olahraga-pria-rtf-127,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1410,6 +1652,7 @@ Jual Sepatu Sport & Futsal Pria - RSD 022 Murah,sepatu-sport-futsal-pria-rsd-022
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1432,8 +1675,18 @@ Jual Sepatu Sport & Futsal Pria - RSD 022 Murah,sepatu-sport-futsal-pria-rsd-022
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport & Futsal Pria - RSD 022 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RSD 022<br/>Warna : HITAM KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : SOL TPR<br/>Heels : <br>
+         <p>Sepatu Sport / Running / Olahraga Pria - RTF 127 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RTF 127<br/>Warna : ABU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 39 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1447,8 +1700,8 @@ Jual Sepatu Sport & Futsal Pria - RSD 022 Murah,sepatu-sport-futsal-pria-rsd-022
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/290-rsd-022.jpg,Sepatu Sport & Futsal Pria - RSD 022,Rp 128.400,RSD 022,Baru
-Jual Sepatu Sport & Futsal Pria - RUN 002 Murah,sepatu-sport-futsal-pria-run-002,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 39 - 43, Warna ABU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/234-rtf-127.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtf-127-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtf-127-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtf-127-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtf-127-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rtf-127-e.jpg,Sepatu Sport / Running / Olahraga Pria - RTF 127,Rp 136.900,Rp 160.900,Rp 24.000,RTF 127,Baru
+Jual Sepatu Sport / Running / Olahraga Pria - RSA 091 Murah,sepatu-sport-running-olahraga-pria-rsa-091,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1473,6 +1726,7 @@ Jual Sepatu Sport & Futsal Pria - RUN 002 Murah,sepatu-sport-futsal-pria-run-002
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1495,8 +1749,18 @@ Jual Sepatu Sport & Futsal Pria - RUN 002 Murah,sepatu-sport-futsal-pria-run-002
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport & Futsal Pria - RUN 002 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RUN 002<br/>Warna : MERAH KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : SOL TPR<br/>Heels : <br>
+         <p>Sepatu Sport / Running / Olahraga Pria - RSA 091 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RSA 091<br/>Warna : ABU ABU<br/>Bahan : SINTETIS<br/>Ukuran : 39 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1510,8 +1774,8 @@ Jual Sepatu Sport & Futsal Pria - RUN 002 Murah,sepatu-sport-futsal-pria-run-002
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna MERAH KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/291-run-002.jpg,Sepatu Sport & Futsal Pria - RUN 002,Rp 131.900,RUN 002,Baru
-Jual Sepatu Sport & Futsal Pria - RUN 003 Murah,sepatu-sport-futsal-pria-run-003,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 39 - 43, Warna ABU ABU",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/235-rsa-091.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rsa-091-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rsa-091-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rsa-091-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rsa-091-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/rsa-091-e.jpg,Sepatu Sport / Running / Olahraga Pria - RSA 091,Rp 131.400,Rp 153.900,Rp 22.500,RSA 091,Baru
+Jual Sepatu Sport / Futsal / Olahraga Pria - RUN 006 Murah,sepatu-sport-futsal-olahraga-pria-run-006,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1536,6 +1800,7 @@ Jual Sepatu Sport & Futsal Pria - RUN 003 Murah,sepatu-sport-futsal-pria-run-003
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1558,8 +1823,18 @@ Jual Sepatu Sport & Futsal Pria - RUN 003 Murah,sepatu-sport-futsal-pria-run-003
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport & Futsal Pria - RUN 003 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RUN 003<br/>Warna : PUTIH<br/>Bahan : SINTETIS<br/>Ukuran : 39 - 43<br/>Berat : 1.1 kg<br/>Sol : SOL TPR<br/>Heels : <br>
+         <p>Sepatu Sport / Futsal / Olahraga Pria - RUN 006 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RUN 006<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : KARET<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1573,8 +1848,8 @@ Jual Sepatu Sport & Futsal Pria - RUN 003 Murah,sepatu-sport-futsal-pria-run-003
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 39 - 43, Warna PUTIH",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/292-run-003.jpg,Sepatu Sport & Futsal Pria - RUN 003,Rp 126.900,RUN 003,Baru
-Jual Sepatu Sport & Futsal Pria - RUN 005 Murah,sepatu-sport-futsal-pria-run-005,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/236-run-006.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-006-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-006-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-006-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-006-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-006-e.jpg,Sepatu Sport / Futsal / Olahraga Pria - RUN 006,Rp 125.400,Rp 146.900,Rp 21.500,RUN 006,Baru
+Jual Sepatu Sport / Futsal / Olahraga Pria - RUN 002 Murah,sepatu-sport-futsal-olahraga-pria-run-002,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1599,6 +1874,7 @@ Jual Sepatu Sport & Futsal Pria - RUN 005 Murah,sepatu-sport-futsal-pria-run-005
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1621,8 +1897,18 @@ Jual Sepatu Sport & Futsal Pria - RUN 005 Murah,sepatu-sport-futsal-pria-run-005
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport & Futsal Pria - RUN 005 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RUN 005<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 39 - 43<br/>Berat : 1.1 kg<br/>Sol : SOL TPR<br/>Heels : <br>
+         <p>Sepatu Sport / Futsal / Olahraga Pria - RUN 002 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RUN 002<br/>Warna : MERAH PUTIH<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1636,8 +1922,8 @@ Jual Sepatu Sport & Futsal Pria - RUN 005 Murah,sepatu-sport-futsal-pria-run-005
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 39 - 43, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/293-run-005.jpg,Sepatu Sport & Futsal Pria - RUN 005,Rp 126.900,RUN 005,Baru
-Jual Sepatu Sport Pria - RDY 059 Murah,sepatu-sport-pria-rdy-059,"
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna MERAH PUTIH",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/237-run-002.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-002-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-002-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-002-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-002-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-002-e.jpg,Sepatu Sport / Futsal / Olahraga Pria - RUN 002,Rp 131.900,Rp 154.900,Rp 23.000,RUN 002,Baru
+Jual Sepatu Sport / Futsal / Olahraga Pria - RUN 005 Murah,sepatu-sport-futsal-olahraga-pria-run-005,"
      <div class=""product-details""><!--product-details-->
       <div class=""col-sm-5"">
        <div class=""view-product"">
@@ -1662,6 +1948,7 @@ Jual Sepatu Sport Pria - RDY 059 Murah,sepatu-sport-pria-rdy-059,"
           </a>
          </label>
         </span>
+        <p><i style=""background-color: #f0ad4e; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Beli : {{ page.price }} </i>  <i style=""background-color: #5bc0de; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Harga Jual : {{ page.hargajual }} </i>  <i style=""background-color: #5cb85c; color: #ffffff; padding: 5px; margin-bottom: 3px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);""> Keuntungan : {{ page.profit }} </i></p>        
         <p><b>Kondisi:</b> {{ page.kondisi }}</p>
         <p><b>Deskripsi:</b> {{ page.description }}</p>
         {% include buy.html %}
@@ -1684,8 +1971,18 @@ Jual Sepatu Sport Pria - RDY 059 Murah,sepatu-sport-pria-rdy-059,"
             <li><a href=""{{ site.url }}/{{ page.jenis }}"" title=""{{ page.jenis }}"">{{ page.jenis }}</a></li>
             <li><a href=""{{ site.url }}/{{ page.brand }}"" title=""{{ page.brand }}"">{{ page.brand }}</a></li>  
          </ol>         
-         <p>Tampil trendy dengan Sepatu Sport Pria merek Raindoz. Brand fashion asal Bandung. Cocok untuk hadiah orang yang Anda sayangi agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria - RDY 059 dengan bahan SINTETIS ini dijamin awet.<br/>Kode : RDY 059<br/>Warna : BIRU KOMBINASI<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1.1 kg<br/>Sol : SOL KARET<br/>Heels : <br>
+         <p>Sepatu Sport / Futsal / Olahraga Pria - RUN 005 adalah salah satu produk merek Raindoz. Produk fashion handmade asal Bandung yang nyaman digunakan dan tidak pasaran. Cocok untuk Anda agar terlihat lebih gaya, tampil berbeda dan percaya diri. Sepatu Sport Pria ini terbuat dari bahan SINTETIS.<br/>Kode : RUN 005<br/>Warna : HITAM<br/>Bahan : SINTETIS<br/>Ukuran : 38 - 43<br/>Berat : 1 kg<br/>Info Lainnya = SOL : TPR<br/>Yuk dibeli kak sebelum kehabisan. Sebelum membeli, harap cek/konfirmasi stok dulu ya kak, karena perputaran barang sangat cepat.<br>
          </p>
+
+         <p><b>Gambar lain :</b></p>
+                    <div class=""add-image"">
+                      <a href=""{{ page.image1 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image1 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image2 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image2 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image3 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image3 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image4 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image4 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>
+                      <a href=""{{ page.image5 }}"" target=""_blank"" title=""{{ page.product }}""><img src=""{{ page.image5 }}"" alt=""{{ page.product }}"" title=""Klik untuk memperbesar"" /></a>                                            
+                    </div>
+                    <br/>
 
          <p style=""background-color: #5cb85c; color: #ffffff; padding: 5px; text-align: center; display: inline-block; box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);"">
          Gudang : WRH-1<br>
@@ -1699,4 +1996,4 @@ Jual Sepatu Sport Pria - RDY 059 Murah,sepatu-sport-pria-rdy-059,"
        </div>       
        
       </div>
-     </div><!--/category-tab-->",2017-08-25,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna BIRU KOMBINASI",https://images.lipatan.com/katalog-raindoz-2017/foto-produk-satuan/323-rdy-059.jpg,Sepatu Sport Pria - RDY 059,Rp 138.400,RDY 059,Baru
+     </div><!--/category-tab-->",2017-10-17,html,sepatu-sport-pria,raindoz,sepatu-sport-pria,raindoz,"Sepatu Sport Pria Bahan SINTETIS, Ukuran 38 - 43, Warna HITAM",https://images.lipatan.com/katalog-raindoz-2017-2/foto-produk-satuan/238-run-005.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-005-a.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-005-b.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-005-c.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-005-d.jpg,https://images.lipatan.com/katalog-raindoz-2017-2/foto-berbagai-sudut/run-005-e.jpg,Sepatu Sport / Futsal / Olahraga Pria - RUN 005,Rp 126.900,Rp 148.900,Rp 22.000,RUN 005,Baru
